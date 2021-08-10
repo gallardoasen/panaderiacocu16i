@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maxi Gallardo">
+    <meta name="description" content="Panaderia y Pasteleria Cocu">
+    <meta name="keywords" content="Panaderia, Pasteleria, Confiteria">
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8530611fc3.js" crossorigin="anonymous"></script>
+    <title>Panaderia Cocu</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/cocu_logo-450.png" alt="logo-panaderia.cocu" width="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-panaderia-cocu" aria-controls="navbar-panaderia-cocu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-panaderia-cocu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="producto.html">Producto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <nav aria-label="breadcrumb">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+            </div>
+        </nav>
+        <section class="container">
+            <h1 class="display-4 text-center">Contáctanos</h1>
+            <hr>
+            <section class="row">
+                <article class="col-sm-12 col-md-6 text-center mt-3">
+                    <h4>Panaderia Cocu</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis autem ullam excepturi
+                        voluptatibus. Ducimus magni maxime consequuntur obcaecati iure omnis repudiandae adipisci
+                        mollitia sint minus, doloremque quas at esse officiis deserunt nisi? Nesciunt odit molestiae
+                        alias reiciendis esse numquam unde neque provident blanditiis! Aperiam totam sint dolor quis
+                        aspernatur accusamus mollitia et velit, eius distinctio eaque quae debitis dolores autem
+                        ratione. Deleniti mollitia accusamus recusandae praesentium est! Ab dignissimos nesciunt quis
+                        veritatis facilis ipsum blanditiis mollitia error alias. Rerum, corporis assumenda, officia at
+                        nesciunt commodi dolorum eos perferendis, facilis aut dolor alias! Doloribus mollitia maiores
+                        illum iusto quis, quidem, id asperiores error ut esse pariatur optio accusantium soluta sint
+                        eveniet rem sequi officia fugiat natus molestiae nostrum aperiam dicta et. Et, voluptatum at
+                        iure nihil laudantium excepturi voluptate obcaecati tempore, magni aspernatur inventore debitis
+                        dignissimos ab! Autem labore optio facilis molestias numquam, quidem fugiat iusto! Fugit maiores
+                        laborum facilis.</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.439934486865!2d-58.386497084919945!3d-34.59303538046222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba18f4fe8b%3A0x7fed442afe4522da!2sConfiter%C3%ADa%20La%20Exposici%C3%B3n!5e0!3m2!1ses-419!2sar!4v1627514148964!5m2!1ses-419!2sar"
+                        allowfullscreen="" loading="lazy" class="w-100" height="250px"></iframe>
+                </article>
+                <article class="col-sm-12 col-md-6 mt-4">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="nombre">Nombre y Apellido <span class="text-danger">*</span></label>
+                            <input class="form-control" type="text" name="nombre" id="nombre" required placeholder="Juan Pérez">
+                        </div>
+                    </form>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Email <span class="text-danger">*</span></label>
+                        <input class="form-control" type="email" name="email" id="email" required placeholder="tuemail@hotmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="mensaje">Mensaje <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="mensaje-contacto" name="mensaje" rows="3" required placeholder="Escriba aqui su mensaje"></textarea>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success" type="submit">Enviar</button>
+                      </div>
+                </article>
+            </section>
+        </section>
+        </footer>
+        <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
